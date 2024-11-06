@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SVG to HTML & CSS</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    margin: 0;
+  }
+
+  .container {
+    position: relative;
+    width: 1199px;
+    height: 399px;
+  }
+
+  .outer-rect {
+    width: 1187px;
+    height: 345px;
+    position: absolute;
+    top: 48px;
+    left: 6px;
+    background-color: rgba(255, 255, 255, 0.24);
+    border: 12px solid rgba(0, 0, 0, 0.43);
+    border-radius: 5px;
+  }
+
+  .input-box {
+    width: 304px;
+    height: 76px;
+    position: absolute;
+    top: 10px;
+    left: 465px;
+    border: 10px solid #817761;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mix-blend-mode: screen;
+    isolation: isolate;
+  }
+
+  .input-box input {
+    width: 90%;
+    height: 70%;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+  }
+
+  .placeholder-text {
+    position: absolute;
+    top: 214px;
+    left: 347px;
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.58);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.54);
+    font-family: Monospace, sans-serif;
+  }
+
+  .dashed-line {
+    width: 539px;
+    height: 0;
+    position: absolute;
+    top: 270.5px;
+    left: 312.5px;
+    border-top: 5px dashed #fff;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="outer-rect"></div>
+  <div class="input-box">
+    <input type="text" placeholder="Enter your name">
+  </div>
+  <div class="placeholder-text">ENTER YOUR NAME</div>
+  <div class="dashed-line"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: red;
+  /* background: url('/css/Image_assets/the-shootist-red-dead-redemption-2-5k-ib.jpg') no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh; */
+}
+#main-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo{
+
+  background: url('/css/Image_assets/logo_desktop.png') no-repeat center center/cover;
+  width: 50vw;
+  height:15vw;
+}
+
+/* landing page desktop */
+.container-whole{
+  display: flex;
+  flex-direction: column;
+}
+.page1-container{
+  display: none;
+  background: url('/css/Image_assets/the-shootist-red-dead-redemption-2-5k-ib.jpg') no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
+}
+.page2-container{
+  background: url('/css/Image_assets/the-shootist-red-dead-redemption-2-5k-ib.jpg') no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.landing-container{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  /* border: 10px red solid; */
+  height: 50vh;
+}
+
+
+
+.button-game a{
+  color: rgba(0, 0, 0, 0);
+
+}
+/* button-landing */
+.button-game-landing {
+  display: flex;
+  width: 60vw;
+  justify-content: space-around;
+}
+
+/* start-button-desktop */
+.btn-start-land{
+  background: url('/css/Image_assets/start.png') no-repeat center center/cover;
+  width: 12vw;
+  height: 8.5vh;
+  color: rgba(0, 0, 0, 0);
+  transition: all ease 0.5s;
+}
+/* hover */
+.btn-start-land:hover{
+  transition: all ease 0.5s;
+  width: 13vw;
+  height: 9.2vh;
+  filter: drop-shadow(10px 10px 5px rgb(122, 75, 5));
+  border-radius: 10px;
+}
+
+
+
+/* setting-button-desktop */
+.btn-setting-land{
+  background: url('/css/Image_assets/settings.png') no-repeat center center/cover;
+  width: 12vw;
+  height: 8.5vh;
+  color: rgba(0, 0, 0, 0);
+  transition: all ease 0.5s;
+}
+/* hover */
+.btn-setting-land:hover {
+  transition: all ease 0.5s;
+  width: 13vw;
+  height: 9.2vh;
+  filter: drop-shadow(10px 10px 5px rgb(122, 75, 5));
+  border-radius: 10px;
+}
+
+
+/* quit-button-desktop */
+.btn-quit-land{
+  background: url('/css/Image_assets/quit.png') no-repeat center center/cover;
+  width: 12vw;
+  height: 8.5vh;
+  color: rgba(0, 0, 0, 0);
+  transition: all ease 0.5s;
+}
+/* hover */
+.btn-quit-land:hover {
+  transition: all ease 0.5s;
+  width: 13vw;
+  height: 9.2vh;
+  filter: drop-shadow(10px 10px 5px rgb(122, 75, 5));
+  border-radius: 10px;
+}
+
+
+/* page 2 */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 10px red solid;
+  height: 50vh;
+}
+.welcome-player-container{
+  border: green 5px solid;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  
+}
+.button-game-slider-2{
+  border: 5px solid blue;
+  display: flex;
+  width: 60vw;
+  justify-content: space-around;
+}
+
+/* back-button-desktop */
+.btn-back{
+  background: url('/css/Image_assets/back.png') no-repeat center center/cover;
+  width: 12vw;
+  height: 8.5vh;
+  color: rgba(0, 0, 0, 0);
+  transition: all ease 0.5s;
+  
+}
+/* hover */
+.btn-back:hover {
+  transition: all ease 0.5s;
+    width: 13vw;
+    height: 9.2vh;
+    filter: drop-shadow(10px 10px 5px rgb(122, 75, 5));
+    border-radius: 10px;
+}
+.btn-next{
+  background: url('/css/Image_assets/next.png') no-repeat center center/cover;
+  width: 12vw;
+  height: 8.5vh;
+  color: rgba(0, 0, 0, 0);
+  transition: all ease 0.5s;
+}
+/* hover */
+.btn-next:hover {
+  transition: all ease 0.5s;
+    width: 13vw;
+    height: 9.2vh;
+    filter: drop-shadow(10px 10px 5px rgb(122, 75, 5));
+    border-radius: 10px;
+}
